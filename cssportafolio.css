@@ -1,0 +1,71 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* me parecio lindo utlizarr el blanco de fondo  */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+/*  el azul como fondo para parrafos como el titulo */
+header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+/* los tamaos de los cuadros */
+header h1 {
+  margin-bottom: 0.5rem;
+}
+/* ps se utlizo blanco para muchas cosas  */
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* tamaño de cuadrooooo creo  */
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+/* bordes */
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.sobre-mi p, .proyecto p, .contacto p {
+  line-height: 1.6;
+}
+/* aca se pone el tamaño de la margen  */
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.proyecto {
+  background-color: white;
+  padding: 1rem;
+  border-left: 5px solid #2563eb;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
